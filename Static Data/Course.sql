@@ -1,6 +1,6 @@
-insert into Course
+insert into Course (Crs_Name,Crs_Id,Crs_Duration,Topic_Id)
 values
-('HTML',1,'60H',1),
+('C#',1,'60H',1),
 ('CSS',2,'100H',1),
 ('JS',3,'110H',1),
 ('SASS',4,'30H',1),
@@ -18,6 +18,5 @@ values
 ('Presentation',16,'10H',3),
 ('Interview',17,'8H',3),
 ('CVWriting',18,'15H',3)
-
 
 
