@@ -1,0 +1,1 @@
+create proc SelectInstructorCourse as select * from crs_ins
