@@ -1,8 +1,8 @@
-create procedure CountInstrauctorInDeptNum @dpt_id int
+alter procedure CountInstrauctorInDeptNum @dpt_id int
 with encryption
 as
 BEGIN try
-select COUNT(*)
+select COUNT(*) as NumberOfIns
 from Instructor
 inner join Works_on as w
 on 
